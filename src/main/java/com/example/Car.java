@@ -2,7 +2,7 @@ package com.example;
 
 public class Car {
 	private String name;
-	private int speed;
+	private String speed;
 	private String color;
 	
 	
@@ -12,10 +12,10 @@ public class Car {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public int getSpeed() {
+	public String getSpeed() {
 		return speed;
 	}
-	public void setSpeed(int speed) {
+	public void setSpeed(String speed) {
 		this.speed = speed;
 	}
 	public String getColor() {
